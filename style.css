@@ -1,0 +1,40 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 1.6rem;
+    display: grid;
+    grid-template-rows: repeat(6, auto);
+    grid-template-columns: repeat(4, auto);
+    text-align: center;
+}
+
+.header {
+    height: 20rem;
+    grid-column: 1 / span 4;
+    background-color: aquamarine;
+}
+.sub-main {
+    height: 15rem;
+    grid-column-start: span 2;
+    background-color: limegreen;
+    border: 1px solid black;
+}
+.profile {
+    height: 20rem;
+    grid-column: 1 / span 4;
+    background-color: aquamarine;
+}
+.gallery {
+    height: 10rem;
+    background-color: #FFF700;
+    border: 1px solid black;
+}
+.footer {
+    height: 20rem;
+    background-color: blueviolet;
+    grid-column-start: span 4;
+}
